@@ -1,2 +1,2 @@
 ;; -*-scheme-*-
-(standard-extension 'pathname-expand 0.1)
+(standard-extension 'pathname-expand 0.2)
