@@ -3,5 +3,6 @@
  (license "BSD")
  (category os)
  (doc-from-wiki)
- (test-depends test)
+ ;; No tests; this is very hard to do in a cross-platform way without
+ ;; writing a reimplementation of the functionality in our tests...
  (author "The CHICKEN team"))
