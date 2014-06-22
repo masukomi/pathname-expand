@@ -1,0 +1,7 @@
+;; -*-scheme-*-
+((synopsis "Pathname expansion")
+ (license "BSD")
+ (category os)
+ (doc-from-wiki)
+ (test-depends test)
+ (author "The CHICKEN team"))
