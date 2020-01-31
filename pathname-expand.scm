@@ -35,8 +35,17 @@
 (module pathname-expand
     (pathname-expand)
 
-(import chicken scheme)
-(use srfi-13 files posix)
+(import chicken.base)
+(import chicken.condition)
+(import chicken.file)
+(import chicken.pathname)
+(import chicken.platform)
+(import chicken.process-context)
+(import chicken.process-context.posix)
+(import chicken.fixnum)
+(import scheme)
+(import srfi-13)
+
 
 ;; Expand pathname starting with "~", and/or apply base directory to
 ;; relative pathname
